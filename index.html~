@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Comenzando con la Fotografía</title>
+<link rel="stylesheet" href="css/estilos.css">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> 
+<meta name="generator" content="Bluefish 2.2.7" >
+<meta name="author" content="ricardo" >
+<meta name="date" content="2017-01-25T17:45:43-0300" >
+<meta name="copyright" content="copyright">
+<meta name="keywords" content="fotografía, fotografo">
+<meta name="description" content="Sitio de proyectos fotograficos. Hecho para evaluación curso NextU">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="expires" content="0">
+<meta name="viewport" content="width=device-width,usr-scalable=no">
+<style>
+	#inicio .vinculo {
+	text-decoration: none;}
+</style>
+</head>
+<body>
+<section id="contenedor">
+
+<! 			CABECERA >
+
+<header id="cabecera" class="contenedor_cabecera">
+	<div id="titulo_cabecera" class="contenedor_titulo">
+		<h1 id="Texto_titulo" class="titulo">Comenzando con la Fotografía</h1>	
+	</div>
+	<div id="menu_cabecera" class="contenedor_menu">
+		<ul id="menu_items" class="lista_menu">
+			<li id="inicio" class="item"><a href="index.html" class="vinculo"> Inicio</a></li>
+			<li id="paisaje" class="item"><a href="paisajes.html" class="vinculo"> Paisajes</a></li>
+			<li id="retrato" class="item"><a href="retratos.html" class="vinculo"> Retratos</a></li>
+		</ul>
+	</div>
+</header>
+
+<!			CONTENIDO  >
+
+<section id="contenedor_principal" class="contenedor_fotos">
+	<div id="contenedor_img_central" class="contenedor_cuadro">
+		<img src="imagenes/imagen_central.jpg" alt="Imagen_central" id="img_central" class="imagen_principal" >
+	</div>
+	<div id="contenedor_img_sec" class="contenedor_cuadro">
+		<div id="contenedor_img1" class="contenedor_img" >
+			<a href="paisajes.html"><img src="imagenes/paisajes.jpg" alt="Imagen Izquierda" id="img_sec1" class="imagen_secundaria"></a>
+			<a href="paisajes.html" class="vinculo">Paisajes</a>
+		</div>
+		<div id="contenedor_img2" class="contenedor_img">
+			<a href="retratos.html"><img src="imagenes/retratos.jpg" alt="Imagen derecha" id="img_sec2" class="imagen_secundaria"></a>
+			<a href="retratos.html" class="vinculo">Retratos</a>
+		</div>
+	</div>
+</section>
+
+<!				PIE DE PAGINA   >
+
+
+<footer id="pie" class="contenendor_pie">
+
+	<div id="contenedor_contacto" class="contenedor_datos">
+		<h2 id="titulo_contacto">Contacto</h2>
+		<a href="mailto:especimenraro.cl@gmail.com" id="correo" class="texto_contacto" >E-mail: especimenraro.cl@gmail.com</a>
+		<p id="direccion" class="texto_contacto">Dir.:Kilómetro 15, Alpehue - Melipeuco, Chile</p>
+		<p id="telefono" class="text_contacto">Cel.: +56982565110</p>
+	</div>
+	
+	<div id="contenedor_terminos" class="contenedor_datos">
+		<h2 id="titulo_terminos">Términos</h2>	
+		<p id="licencia" class="texto_terminos">Todas las imágenes aquí contenidas sólo pueden ser utilizadas para fines sin lucro, previa consulta y aprobación de parte del autor.</p>
+	</div>
+	
+	<div id="contenedor_sociales" class="contenedor_datos">
+		<h2 id="titulo_sociales">Sociales</h2>
+		<img src="logos/fb_icon_325x325.png" alt="logo facebook" id="logo_facebook" class="logo"></img>
+		<p id="usuario_facebook" class="texto_sociales">Ricardo Navia<br></p>
+		<img src="logos/google plus.png" alt="logo google" id="logo_google" class="logo"></img>
+		<p id="usuario_google" class="texto_sociales">Ricardo Navia</p>
+		<a href="www.especimenraro.cl" id="pagina_alternativa" class="texto_sociales" >www.especimenraro.cl</a>
+	</div>
+	
+	<div id="contenedor_derechos" class="contenedor_datos">
+		<h2 id="titulo_derechos">Derechos</h2>
+		<img src="logos/copyright.jpg" alt="símbolo de copyright" id="simbolo_copyright" class="logo"></img>
+		<p id="derechos" class="texto_derechos">Todos los derechos reservados. Prohibida su reproducción.</p>
+	</div>
+</footer>
+</section>
+</body>
+</html>
