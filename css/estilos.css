@@ -1,16 +1,31 @@
 /*		GENERAL */
 body{
-background-color: #02010a;}
-#contenedor {
+background-color: #02010a;
+font-family: 'Dancing Script', cursive;
+}
+
+/*#contenedor {
 	display: block;
 	margin: 0 auto;
 	clear: both;
 	width: 900px;
 	font-family: 'Dancing Script', cursive;
 	
+}*/
+
+img[class^='imagen']{
+-webkit-filter: drop-shadow(2px 2px 2px #02010a);
+filter: drop-shadow(2px 2px 2px #02010a);
+transition-duration: 1s;
+}
+
+img[class^=logo]{
+	display: inline;
+width: 10%;
 }
 
 /*                 ESTILOS DE LA CABECERA                 */
+
 #cabecera {
 	display: flex;
 	flex-direction: column;
@@ -18,11 +33,11 @@ background-color: #02010a;}
 	background-color: #5b7989;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-	width: 100%;
+	width: 900px;
 	}
 	
-#titulo_cabecera {	order:1;}
-#menu_cabecera{	order:2;}
+#texto_titulo {	order:1;}
+#menu_items{	order:2;}
 
 h1 {
 	text-align: left;
@@ -30,54 +45,50 @@ h1 {
 	color: white;
 	text-shadow: 1px 1px 2px #02010a;
 	margin: 10px 5px 10px 5px;
+	width: 100%;
 	 }
 
 .lista_menu {
-	display: flex;
-	flex-flow: row no-wrap;
+	display: inline;
 	list-style-type: none;
-	float: right;
+	padding: 0px 0px;
+	
 }
 #menu_items .item {
 	font-size: 25px;
 	margin: 0px 5px 0px 5px;
+	float: right;
 }
 
 #inicio { order:1;}
 #paisaje {order:2;}
 #retrato {order:3;}
 
-/*   						ESTILOS DEL CONTENIDO DE INICIO Y GENERALES DE IMAGENES					*/
+/*   						ESTILOS DEL CONTENIDO DE INDEX 				*/
 
 #contenedor_principal {
-	background-color: #5b7989;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
+	background-color: #d5c75f;
+	display: block;
+	width: 880px;
+	margin: 0 auto;
+	padding: 10px 10px 10px 10px;
 	}
-#contenedor_img_central {
-display: inline-block;1/45
-order:1;
-background-color: #82c3a6;
-padding: 10px 10px 10px 10px;
-width:97.7%;
-}
 
 #img_central {
 width:100%;
-
+border:solid 1px white;
 }
 #contenedor_img_sec {
 width: 100%;
 display: flex;
 flex-flow: row no-wrap;
-order:2;
 background-color: #d5c75f;
 }
 .contenedor_img {
 width:50%;
-margin: 10px 10px 10px 10px;
-
+margin: 0 auto;
+padding-left: 5px;
+padding-right: 5px;
 }
 .imagen_secundaria {
 width: 100%;
@@ -86,11 +97,7 @@ border:solid 1px white;
 #contenedor_img1 {	order:1;	}
 #contenedor_img2 {  order:2;  }
 
-img[class^='imagen']{
--webkit-filter: drop-shadow(2px 2px 2px #02010a);
-filter: drop-shadow(2px 2px 2px #02010a);
-transition-duration: 1s;
-}
+
 .contenedor_img .vinculo {
 display: block;
 text-align: center;}
@@ -113,14 +120,13 @@ text-align: center;}
 
 #contenedor_galeria {
 	background-color: whitesmoke;
-	width: 100%;
-		}
-#galeria {
+	width: 880px;
+	margin: 0 auto;
 	display: flex;
 	flex-flow: row no-wrap;
-	width: 97%;
-	margin: 0px 10px 0px 10px;
-}
+	padding: 0px 10px 0px 10px;
+		}
+
 #col1 {order:1;}
 #col2 {order:2;}
 #col3 {order:3;}
@@ -142,6 +148,7 @@ margin: 10px 10px 10px 10px;
 #img1{
 -webkit-filter:blur(10px) drop-shadow(2px 2px 2px #02010a);
 filter:blur(10px) drop-shadow(2px 2px 2px #02010a);}
+
 img[id$='g2'],img[id$='g4'],img[id$='g6'],img[id$='portrait']{
 	-webkit-filter:grayscale(100%) drop-shadow(2px 2px 2px #02010a);
 	filter:grayscale(100%) drop-shadow(2px 2px 2px #02010a);
@@ -160,7 +167,8 @@ border-bottom-right-radius: 10px;
 display: flex;
 flex-flow: row no-wrap;
 background-color: #c6d5c5;
-width: 100%;
+margin: 0 auto;
+width: 900px;
 }
 #contenedor_contacto{order:1;}
 #contenedor_terminos{order:2;}
@@ -193,7 +201,12 @@ text-align: left;}
 	}
 	.texto_derechos{
 	display: inline;}
-img[class^=logo]{
-	display: inline;
-width: 10%;
-}
+	
+	
+
+
+
+
+
+
+
