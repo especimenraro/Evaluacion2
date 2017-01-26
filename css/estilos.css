@@ -21,14 +21,9 @@ background-color: #02010a;}
 	width: 100%;
 	}
 	
-#titulo_cabecera {
-	
-	order:1;
-	}
-#menu_cabecera{
+#titulo_cabecera {	order:1;}
+#menu_cabecera{	order:2;}
 
-	order:2;
-	}
 h1 {
 	text-align: left;
 	font-size: 30px;
@@ -52,7 +47,7 @@ h1 {
 #paisaje {order:2;}
 #retrato {order:3;}
 
-/*   						ESTILOS DEL CONTENIDO 					*/
+/*   						ESTILOS DEL CONTENIDO DE INICIO Y GENERALES DE IMAGENES					*/
 
 #contenedor_principal {
 	background-color: #5b7989;
@@ -91,7 +86,7 @@ border:solid 1px white;
 #contenedor_img1 {	order:1;	}
 #contenedor_img2 {  order:2;  }
 
-img[class^=imagen]{
+img[class^='imagen']{
 -webkit-filter: drop-shadow(2px 2px 2px #02010a);
 filter: drop-shadow(2px 2px 2px #02010a);
 transition-duration: 1s;
@@ -107,9 +102,53 @@ text-align: center;}
 }
 
 #img_sec2:hover{
-	transform: translatey(5px)  translatex(20px);
+	transform: translatey(-5px)  translatex(20px);
 	-webkit-filter: drop-shadow(2px 2px 2px #82c3a6);
 	filter: drop-shadow(2px 2px 2px #82c3a6);
+}
+
+
+
+/*   						ESTILOS DEL CONTENIDO DE PAISAJES Y RETRATOS 					*/
+
+#contenedor_galeria {
+	background-color: whitesmoke;
+	width: 100%;
+		}
+#galeria {
+	display: flex;
+	flex-flow: row no-wrap;
+	width: 97%;
+	margin: 0px 10px 0px 10px;
+}
+#col1 {order:1;}
+#col2 {order:2;}
+#col3 {order:3;}
+
+.contenedor_lista_img{
+width: 97%;
+margin: 10px 10px 10px 10px;
+}
+.imagen_galeria {
+	width: 100%;
+	border: solid 5px white;
+}
+#img_portrait{
+	width: 45%;
+	position: relative;
+	left: 27%;	
+	}
+	
+#img1{
+-webkit-filter:blur(10px) drop-shadow(2px 2px 2px #02010a);
+filter:blur(10px) drop-shadow(2px 2px 2px #02010a);}
+img[id$='g2'],img[id$='g4'],img[id$='g6'],img[id$='portrait']{
+	-webkit-filter:grayscale(100%) drop-shadow(2px 2px 2px #02010a);
+	filter:grayscale(100%) drop-shadow(2px 2px 2px #02010a);
+}
+#img3{
+-webkit-filter:sepia(90%) drop-shadow(2px 2px 2px #02010a);
+filter:sepia(90%) drop-shadow(2px 2px 2px #02010a);
 }
 
 
