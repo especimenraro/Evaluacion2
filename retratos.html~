@@ -6,7 +6,7 @@
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> 
 <meta name="generator" content="Bluefish 2.2.7" >
 <meta name="author" content="ricardo" >
-<meta name="date" content="2017-01-26T17:04:45-0300" >
+<meta name="date" content="2017-01-26T22:26:55-0300" >
 <meta name="copyright" content="copyright">
 <meta name="keywords" content="fotografía, fotografo">
 <meta name="description" content="Sitio de proyectos fotograficos. Hecho para evaluación curso NextU">
@@ -22,12 +22,12 @@
 </style>
 </head>
 <body>
-<section id="contenedor">
+
 
 <! 			CABECERA >
 
 <header id="cabecera" class="contenedor_cabecera">	
-		<h1 id="Texto_titulo" class="titulo">Comenzando con Los Paisajes</h1>		
+		<h1 id="Texto_titulo" class="titulo">Comenzando con Los Retratos</h1>		
 		<ul id="menu_items" class="lista_menu">
 			<li id="retrato" class="item"><a href="retratos.html" class="vinculo"> Retratos</a></li>
 			<li id="paisaje" class="item"><a href="paisajes.html" class="vinculo"> Paisajes</a></li>			
@@ -38,7 +38,7 @@
 <!			CONTENIDO  >
 
 <section id="contenedor_galeria" class="contenedor_galeria_img">
-	<div id="galeria" class="galeria_img">
+	
 		<div id="col1" class="contenedor_lista_img">
 			<img src="imagenes/retratos/imagen1.jpg" alt="Imagen 1" id="img1" class="imagen_galeria" >
 			<img src="imagenes/retratos/imagen3.jpg" alt="Imagen 3" id="img3" class="imagen_galeria" >
@@ -48,7 +48,7 @@
 			<img src="imagenes/retratos/imagen4.jpg" alt="Imagen 4" id="img_portrait" class="imagen_galeria" >
 			</div>
 			
-		</div>
+		
 </section>
 
 <!				PIE DE PAGINA   >
@@ -57,10 +57,10 @@
 <footer id="pie" class="contenendor_pie">
 
 	<div id="contenedor_contacto" class="contenedor_datos">
-		<h2 id="titulo_contacto">Contacto</h2>
-		<a href="mailto:especimenraro.cl@gmail.com" id="correo" class="texto_contacto" >E-mail: especimenraro.cl@gmail.com</a>
-		<p id="direccion" class="texto_contacto">Dir.:Kilómetro 15, Alpehue - Melipeuco, Chile</p>
-		<p id="telefono" class="text_contacto">Cel.: +56982565110</p>
+		<h2 id="titulo_contacto">Contacto<br></h2>
+		<a href="mailto:especimenraro.cl@gmail.com" id="correo" class="texto_contacto" >E-mail: especimenraro.cl@gmail.com<br></a>
+		<p id="direccion" class="texto_contacto">Dir.:Kilómetro 15, Alpehue - Melipeuco, Chile<br></p>
+		<p id="telefono" class="texto_contacto">Cel.: +56982565110<br></p>
 	</div>
 	
 	<div id="contenedor_terminos" class="contenedor_datos">
@@ -70,19 +70,25 @@
 	
 	<div id="contenedor_sociales" class="contenedor_datos">
 		<h2 id="titulo_sociales">Sociales</h2>
-		<img src="logos/fb_icon_325x325.png" alt="logo facebook" id="logo_facebook" class="logo"></img>
+		<div id="contenedor_fb" class="contenedor_datos_sociales">
+		<img src="logos/fb_icon_325x325.png" alt="logo facebook" id="logo_facebook" class="logo">
 		<p id="usuario_facebook" class="texto_sociales">Ricardo Navia<br></p>
-		<img src="logos/google plus.png" alt="logo google" id="logo_google" class="logo"></img>
-		<p id="usuario_google" class="texto_sociales">Ricardo Navia</p>
+		</div>
+		<div id="contenedor_google" class="contenedor_datos_sociales">
+		<img src="logos/google plus.png" alt="logo google" id="logo_google" class="logo">
+		<p id="usuario_google" class="texto_sociales">Ricardo Navia<br></p>
+		</div>
 		<a href="www.especimenraro.cl" id="pagina_alternativa" class="texto_sociales" >www.especimenraro.cl</a>
 	</div>
 	
 	<div id="contenedor_derechos" class="contenedor_datos">
 		<h2 id="titulo_derechos">Derechos</h2>
-		<img src="logos/copyright.jpg" alt="símbolo de copyright" id="simbolo_copyright" class="logo"></img>
+		<div id="contenedor_datos_derechos">
+		<img src="logos/copyright.jpg" alt="símbolo de copyright" id="simbolo_copyright" class="logo">todos los datos</img>
 		<p id="derechos" class="texto_derechos">Todos los derechos reservados. Prohibida su reproducción.</p>
+		</div>
 	</div>
 </footer>
-</section>
+
 </body>
 </html>

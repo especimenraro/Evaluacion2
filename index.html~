@@ -6,7 +6,7 @@
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> 
 <meta name="generator" content="Bluefish 2.2.7" >
 <meta name="author" content="ricardo" >
-<meta name="date" content="2017-01-26T16:32:27-0300" >
+<meta name="date" content="2017-01-26T22:09:10-0300" >
 <meta name="copyright" content="copyright">
 <meta name="keywords" content="fotografía, fotografo">
 <meta name="description" content="Sitio de proyectos fotograficos. Hecho para evaluación curso NextU">
@@ -15,7 +15,7 @@
 <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
 <meta http-equiv="content-style-type" content="text/css">
 <meta http-equiv="expires" content="0">
-<meta name="viewport" content="width=device-width,usr-scalable=no">
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0">
 <style>
 	#inicio .vinculo {
 	text-decoration: none;}
@@ -38,16 +38,24 @@
 <!			CONTENIDO  >
 
 <section id="contenedor_principal" class="contenedor_fotos">
-	<div id="contenedor_img_central" class="contenedor_cuadro">
+	
 		<img src="imagenes/imagen_central.jpg" alt="Imagen_central" id="img_central" class="imagen_principal" >
-	</div>
+	
 	<div id="contenedor_img_sec" class="contenedor_cuadro">
 		<div id="contenedor_img1" class="contenedor_img" >
-			<a href="paisajes.html"><img src="imagenes/paisajes.jpg" alt="Imagen Izquierda" id="img_sec1" class="imagen_secundaria"></a>
+			<a href="paisajes.html">
+			
+			<img src="imagenes/paisajes.jpg" alt="Imagen Izquierda" id="img_sec1" class="imagen_secundaria">
+			
+			</a>
 			<a href="paisajes.html" class="vinculo">Paisajes</a>
 		</div>
 		<div id="contenedor_img2" class="contenedor_img">
-			<a href="retratos.html"><img src="imagenes/retratos.jpg" alt="Imagen derecha" id="img_sec2" class="imagen_secundaria"></a>
+			<a href="retratos.html">
+			
+			<img src="imagenes/retratos.jpg" alt="Imagen derecha" id="img_sec2" class="imagen_secundaria">
+			
+			</a>
 			<a href="retratos.html" class="vinculo">Retratos</a>
 		</div>
 	</div>
@@ -59,10 +67,10 @@
 <footer id="pie" class="contenendor_pie">
 
 	<div id="contenedor_contacto" class="contenedor_datos">
-		<h2 id="titulo_contacto">Contacto</h2>
-		<a href="mailto:especimenraro.cl@gmail.com" id="correo" class="texto_contacto" >E-mail: especimenraro.cl@gmail.com</a>
-		<p id="direccion" class="texto_contacto">Dir.:Kilómetro 15, Alpehue - Melipeuco, Chile</p>
-		<p id="telefono" class="text_contacto">Cel.: +56982565110</p>
+		<h2 id="titulo_contacto">Contacto<br></h2>
+		<a href="mailto:especimenraro.cl@gmail.com" id="correo" class="texto_contacto" >E-mail: especimenraro.cl@gmail.com<br></a>
+		<p id="direccion" class="texto_contacto">Dir.:Kilómetro 15, Alpehue - Melipeuco, Chile<br></p>
+		<p id="telefono" class="texto_contacto">Cel.: +56982565110<br></p>
 	</div>
 	
 	<div id="contenedor_terminos" class="contenedor_datos">
@@ -72,16 +80,20 @@
 	
 	<div id="contenedor_sociales" class="contenedor_datos">
 		<h2 id="titulo_sociales">Sociales</h2>
-		<img src="logos/fb_icon_325x325.png" alt="logo facebook" id="logo_facebook" class="logo"></img>
+		<div id="contenedor_fb" class="contenedor_datos_sociales">
+		<img src="logos/fb_icon_325x325.png" alt="logo facebook" id="logo_facebook" class="logo">
 		<p id="usuario_facebook" class="texto_sociales">Ricardo Navia<br></p>
-		<img src="logos/google plus.png" alt="logo google" id="logo_google" class="logo"></img>
-		<p id="usuario_google" class="texto_sociales">Ricardo Navia</p>
+		</div>
+		<div id="contenedor_google" class="contenedor_datos_sociales">
+		<img src="logos/google plus.png" alt="logo google" id="logo_google" class="logo">
+		<p id="usuario_google" class="texto_sociales">Ricardo Navia<br></p>
+		</div>
 		<a href="www.especimenraro.cl" id="pagina_alternativa" class="texto_sociales" >www.especimenraro.cl</a>
 	</div>
 	
 	<div id="contenedor_derechos" class="contenedor_datos">
 		<h2 id="titulo_derechos">Derechos</h2>
-		<img src="logos/copyright.jpg" alt="símbolo de copyright" id="simbolo_copyright" class="logo"></img>
+		<img src="logos/copyright.jpg" alt="símbolo de copyright" id="simbolo_copyright" class="logo">
 		<p id="derechos" class="texto_derechos">Todos los derechos reservados. Prohibida su reproducción.</p>
 	</div>
 </footer>

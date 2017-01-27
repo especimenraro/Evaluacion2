@@ -6,7 +6,7 @@
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> 
 <meta name="generator" content="Bluefish 2.2.7" >
 <meta name="author" content="ricardo" >
-<meta name="date" content="2017-01-26T17:00:57-0300" >
+<meta name="date" content="2017-01-26T21:36:15-0300" >
 <meta name="copyright" content="copyright">
 <meta name="keywords" content="fotografía, fotografo">
 <meta name="description" content="Sitio de proyectos fotograficos. Hecho para evaluación curso NextU">
@@ -22,7 +22,6 @@
 </style>
 </head>
 <body>
-<section id="contenedor">
 
 <! 			CABECERA >
 
@@ -38,20 +37,30 @@
 <!			CONTENIDO  >
 
 <section id="contenedor_galeria" class="contenedor_galeria_img">
-	<div id="galeria" class="galeria_img">
+	
 		<div id="col1" class="contenedor_lista_img">
+			
 			<img src="imagenes/paisajes/imagen1.jpg" alt="Imagen 1" id="img1" class="imagen_galeria" >
+			
 			<img src="imagenes/paisajes/imagen4.jpg" alt="Imagen 4" id="img4" class="imagen_galeria" >
+		
 		</div>
 		<div id="col2" class="contenedor_lista_img">
+			
 			<img src="imagenes/paisajes/imagen2.jpg" alt="Imagen 2" id="img2" class="imagen_galeria" >
+			
 			<img src="imagenes/paisajes/imagen5.jpg" alt="Imagen 5" id="img5" class="imagen_galeria" >
+			
 			</div>
 			<div id="col3" class="contenedor_lista_img">
+				
 				<img src="imagenes/paisajes/imagen3.jpg" alt="Imagen 3" id="img3" class="imagen_galeria" >
+				
+				
 				<img src="imagenes/paisajes/imagen6.jpg" alt="Imagen 6" id="img6" class="imagen_galeria" >
+				
 			</div>
-		</div>
+		
 </section>
 
 <!				PIE DE PAGINA   >
@@ -86,6 +95,6 @@
 		<p id="derechos" class="texto_derechos">Todos los derechos reservados. Prohibida su reproducción.</p>
 	</div>
 </footer>
-</section>
+
 </body>
 </html>
