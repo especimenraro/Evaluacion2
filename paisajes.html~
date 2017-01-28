@@ -6,7 +6,7 @@
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> 
 <meta name="generator" content="Bluefish 2.2.7" >
 <meta name="author" content="ricardo" >
-<meta name="date" content="2017-01-26T21:36:15-0300" >
+<meta name="date" content="2017-01-27T21:53:01-0300" >
 <meta name="copyright" content="copyright">
 <meta name="keywords" content="fotografía, fotografo">
 <meta name="description" content="Sitio de proyectos fotograficos. Hecho para evaluación curso NextU">
@@ -22,7 +22,7 @@
 </style>
 </head>
 <body>
-
+<div id="contenido">
 <! 			CABECERA >
 
 <header id="cabecera" class="contenedor_cabecera">	
@@ -39,26 +39,28 @@
 <section id="contenedor_galeria" class="contenedor_galeria_img">
 	
 		<div id="col1" class="contenedor_lista_img">
-			
-			<img src="imagenes/paisajes/imagen1.jpg" alt="Imagen 1" id="img1" class="imagen_galeria" >
-			
-			<img src="imagenes/paisajes/imagen4.jpg" alt="Imagen 4" id="img4" class="imagen_galeria" >
-		
+				<figure>
+					<img src="imagenes/paisajes/imagen1.jpg" alt="Imagen 1" id="img1" class="imagen_galeria" >
+				</figure>
+				<figure>
+					<img src="imagenes/paisajes/imagen4.jpg" alt="Imagen 4" id="img4" class="imagen_galeria" >
+				</figure>		
 		</div>
 		<div id="col2" class="contenedor_lista_img">
-			
-			<img src="imagenes/paisajes/imagen2.jpg" alt="Imagen 2" id="img2" class="imagen_galeria" >
-			
-			<img src="imagenes/paisajes/imagen5.jpg" alt="Imagen 5" id="img5" class="imagen_galeria" >
-			
-			</div>
-			<div id="col3" class="contenedor_lista_img">
-				
-				<img src="imagenes/paisajes/imagen3.jpg" alt="Imagen 3" id="img3" class="imagen_galeria" >
-				
-				
-				<img src="imagenes/paisajes/imagen6.jpg" alt="Imagen 6" id="img6" class="imagen_galeria" >
-				
+				<figure>
+					<img src="imagenes/paisajes/imagen2.jpg" alt="Imagen 2" id="img2" class="imagen_galeria" >
+				</figure>
+				<figure>
+					<img src="imagenes/paisajes/imagen5.jpg" alt="Imagen 5" id="img5" class="imagen_galeria" >
+				</figure>
+		</div>
+		<div id="col3" class="contenedor_lista_img">
+					<figure>
+						<img src="imagenes/paisajes/imagen3.jpg" alt="Imagen 3" id="img3" class="imagen_galeria" >
+					</figure>
+					<figure>				
+						<img src="imagenes/paisajes/imagen6.jpg" alt="Imagen 6" id="img6" class="imagen_galeria" >
+					</figure>
 			</div>
 		
 </section>
@@ -69,10 +71,10 @@
 <footer id="pie" class="contenendor_pie">
 
 	<div id="contenedor_contacto" class="contenedor_datos">
-		<h2 id="titulo_contacto">Contacto</h2>
-		<a href="mailto:especimenraro.cl@gmail.com" id="correo" class="texto_contacto" >E-mail: especimenraro.cl@gmail.com</a>
-		<p id="direccion" class="texto_contacto">Dir.:Kilómetro 15, Alpehue - Melipeuco, Chile</p>
-		<p id="telefono" class="text_contacto">Cel.: +56982565110</p>
+		<h2 id="titulo_contacto">Contacto<br></h2>
+		<a href="mailto:especimenraro.cl@gmail.com" id="correo" class="texto_contacto" >E-mail: especimenraro.cl@gmail.com<br></a>
+		<p id="direccion" class="texto_contacto">Dir.:Kilómetro 15, Alpehue - Melipeuco, Chile<br></p>
+		<p id="telefono" class="texto_contacto">Cel.: +56982565110<br></p>
 	</div>
 	
 	<div id="contenedor_terminos" class="contenedor_datos">
@@ -82,19 +84,25 @@
 	
 	<div id="contenedor_sociales" class="contenedor_datos">
 		<h2 id="titulo_sociales">Sociales</h2>
-		<img src="logos/fb_icon_325x325.png" alt="logo facebook" id="logo_facebook" class="logo"></img>
+		<div id="contenedor_fb" class="contenedor_datos_sociales">
+		<img src="logos/fb_icon_325x325.png" alt="logo facebook" id="logo_facebook" class="logo">
 		<p id="usuario_facebook" class="texto_sociales">Ricardo Navia<br></p>
-		<img src="logos/google plus.png" alt="logo google" id="logo_google" class="logo"></img>
-		<p id="usuario_google" class="texto_sociales">Ricardo Navia</p>
+		</div>
+		<div id="contenedor_google" class="contenedor_datos_sociales">
+		<img src="logos/google plus.png" alt="logo google" id="logo_google" class="logo">
+		<p id="usuario_google" class="texto_sociales">Ricardo Navia<br></p>
+		</div>
 		<a href="www.especimenraro.cl" id="pagina_alternativa" class="texto_sociales" >www.especimenraro.cl</a>
 	</div>
 	
 	<div id="contenedor_derechos" class="contenedor_datos">
 		<h2 id="titulo_derechos">Derechos</h2>
-		<img src="logos/copyright.jpg" alt="símbolo de copyright" id="simbolo_copyright" class="logo"></img>
-		<p id="derechos" class="texto_derechos">Todos los derechos reservados. Prohibida su reproducción.</p>
+		<div id="contenedor_datos_derechos">
+		<img src="logos/copyright.jpg" alt="símbolo de copyright" id="simbolo_copyright" class="logo">
+		<p id="derechos" class="texto_derechos">Ricardo Navia, 2017.</p>
+		</div>
 	</div>
 </footer>
-
+</div>
 </body>
 </html>

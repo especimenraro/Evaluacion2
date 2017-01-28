@@ -6,7 +6,7 @@
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> 
 <meta name="generator" content="Bluefish 2.2.7" >
 <meta name="author" content="ricardo" >
-<meta name="date" content="2017-01-26T22:26:55-0300" >
+<meta name="date" content="2017-01-27T21:53:03-0300" >
 <meta name="copyright" content="copyright">
 <meta name="keywords" content="fotografía, fotografo">
 <meta name="description" content="Sitio de proyectos fotograficos. Hecho para evaluación curso NextU">
@@ -22,7 +22,7 @@
 </style>
 </head>
 <body>
-
+<div id="contenido">
 
 <! 			CABECERA >
 
@@ -40,15 +40,21 @@
 <section id="contenedor_galeria" class="contenedor_galeria_img">
 	
 		<div id="col1" class="contenedor_lista_img">
-			<img src="imagenes/retratos/imagen1.jpg" alt="Imagen 1" id="img1" class="imagen_galeria" >
-			<img src="imagenes/retratos/imagen3.jpg" alt="Imagen 3" id="img3" class="imagen_galeria" >
+			<figure>
+				<img src="imagenes/retratos/imagen1.jpg" alt="Imagen 1" id="img1" class="imagen_galeria" >
+			</figure>
+			<figure>
+				<img src="imagenes/retratos/imagen3.jpg" alt="Imagen 3" id="img3" class="imagen_galeria" >
+			</figure>
 		</div>
 		<div id="col2" class="contenedor_lista_img">
+			<figure>
 			<img src="imagenes/retratos/imagen2.jpg" alt="Imagen 2" id="img2" class="imagen_galeria" >
+			</figure>
+			<figure>
 			<img src="imagenes/retratos/imagen4.jpg" alt="Imagen 4" id="img_portrait" class="imagen_galeria" >
-			</div>
-			
-		
+			</figure>
+			</div>		
 </section>
 
 <!				PIE DE PAGINA   >
@@ -84,11 +90,11 @@
 	<div id="contenedor_derechos" class="contenedor_datos">
 		<h2 id="titulo_derechos">Derechos</h2>
 		<div id="contenedor_datos_derechos">
-		<img src="logos/copyright.jpg" alt="símbolo de copyright" id="simbolo_copyright" class="logo">todos los datos</img>
-		<p id="derechos" class="texto_derechos">Todos los derechos reservados. Prohibida su reproducción.</p>
+		<img src="logos/copyright.jpg" alt="símbolo de copyright" id="simbolo_copyright" class="logo">
+		<p id="derechos" class="texto_derechos">Ricardo Navia, 2017.</p>
 		</div>
 	</div>
 </footer>
-
+</div>
 </body>
 </html>
